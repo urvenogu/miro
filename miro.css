@@ -103,3 +103,62 @@ body {
   align-items: center;
   justify-content: center;
 }
+.hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.hero-left {
+  flex: 1;
+  max-width: 520px;
+}
+
+.hero-title {
+  font-size: 48px;
+  line-height: 1.1;
+  color: #010006;
+  margin: 0 0 16px;
+}
+
+.hero-title span {
+  font-weight: 700;
+}
+
+.hero-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #010006;
+  margin-bottom: 24px;
+}
+
+.hero-form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.hero-input {
+  flex: 1;
+  padding: 14px 20px;
+  border-radius: 999px;
+  border-radius: 1px;
+  font-size: 16px;
+  outline: none;
+}
+
+.hero-input:focus {
+  border-color: #1a1a7a;
+}
+
+.hero-button {
+  white-space: nowrap;
+}
+
+
+
